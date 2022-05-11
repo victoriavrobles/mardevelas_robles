@@ -1,3 +1,15 @@
 $colorFondo : #f8ecdc;
 $colorPrimario : #c79f6c;
 $colorSecundario : #e2ba87;
+
+$texto:(
+    align: center,
+    color: #fff,
+    margin: 20px,
+);
+
+@mixin propiedadesp ($bg-color,$ancho, $alto) {
+    background-color: $bg-color;
+    width: $ancho;
+    height: $alto;
+}

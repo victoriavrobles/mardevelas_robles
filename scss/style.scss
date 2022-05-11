@@ -26,11 +26,11 @@ body{
 
 .aside{
     background-color: $colorSecundario;
-    text-align: center;
+    text-align: map-get($texto , align);
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
         .titulo{
-            background-color: white;
+            background-color: map-get($texto, color);
             color: $colorPrimario;
             border-radius: 20px;
             padding: 0px 5px;
@@ -40,16 +40,14 @@ body{
 }
 
 .menu{
-    background-color: $colorPrimario;
-    width: 100%;
-    height: max-content;
+    @include propiedadesp ($colorPrimario, 100%, max-content);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
             ul li{
                 display: inline;
-                margin: 20px;
+                margin: map-get($texto, margin);
                 padding: 10px;
             }
             il {
@@ -57,14 +55,14 @@ body{
             }
                 ul li a{
                     transition: 0.4s;
-                    color: #ffffff;
+                    color: map-get($texto , color);
                     font-size: 20px;
                     text-decoration: none;
                     padding: 0 10px;
                     margin: 0 10px;
                 }
                     ul li a:hover{
-                        background-color: #ffffff;
+                        background-color: map-get($texto , color );
                         color: $colorSecundario;
                         padding: 24px 10px;
                     }
@@ -100,17 +98,16 @@ body{
 .btn{
     background-color: $colorPrimario;
     border: solid 1px #79541e;
-}
-
-.btn:hover{
-    background-color: #c7a06cad;
-    border: solid 1px #79551eda;
+        &:hover{
+            background-color: #c7a06cad;
+            border: solid 1px #79551eda;
+        }
 }
 
 .faq{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin: 20px;
+    @extend h1;
+    text-align: map-get($texto, align);
+    margin: map-get($texto, margin );
     padding: 10px;
 }
 
@@ -126,7 +123,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: map-get($texto, margin);
 }
 
 .mapa{
@@ -136,7 +133,7 @@ body{
 
 .titulo_contacto{
     margin: 50px;
-    text-align: center;
+    text-align: map-get($texto , align );
 }
 
 .formulario{
@@ -146,15 +143,13 @@ body{
 }
 
 footer{
-    background-color: $colorPrimario;
+    @include propiedadesp ($colorPrimario, 100%, auto);
     color: white;
-    width: 100%;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    text-align: map-get($texto, align );
     padding: 8px;
 }
 
@@ -166,13 +161,11 @@ footer{
         display: flex;
         justify-content: center;
     ul{
+        @include propiedadesp ($colorPrimario, 100%, 100%);
         position: fixed;
-        width: 100%;
-        height: 100%;
-        background-color: $colorPrimario;
         top: 150px;
         left: -100%;
-        text-align: center;
+        text-align: map-get($texto , align);
         z-index: 3;
     }
     ul li{
