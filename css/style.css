@@ -1,241 +1,154 @@
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 a {
   text-decoration: none;
-  color: #e2ba87;
-}
+  color: #e2ba87; }
 
 h1, .faq, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-}
+  font-family: 'Montserrat', sans-serif; }
 
 p {
   margin-top: 0;
-  margin-bottom: 1px;
-}
+  margin-bottom: 1px; }
 
 body {
-  background-color: #f8ecdc;
-}
+  background-color: #f8ecdc; }
 
 .aside {
   background-color: #e2ba87;
   text-align: center;
   padding: 5px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.aside .titulo {
-  background-color: #fff;
-  color: #c79f6c;
-  border-radius: 20px;
-  padding: 0px 5px;
-}
+  font-family: 'Montserrat', sans-serif; }
+  .aside .titulo {
+    background-color: #fff;
+    color: #c79f6c;
+    border-radius: 20px;
+    padding: 0px 5px; }
 
 .menu {
   background-color: #c79f6c;
   width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  overflow: hidden;
-}
-
-.menu ul li {
-  display: inline;
-  margin: 20px;
-  padding: 10px;
-}
-
-.menu il {
-  list-style: none;
-}
-
-.menu ul li a {
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 0 10px;
-  margin: 0 10px;
-}
-
-.menu ul li a:hover {
-  background-color: #fff;
-  color: #e2ba87;
-  padding: 24px 10px;
-}
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden; }
+  .menu ul li {
+    display: inline;
+    margin: 20px;
+    padding: 10px; }
+  .menu il {
+    list-style: none; }
+  .menu ul li a {
+    transition: 0.4s;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px; }
+  .menu ul li a:hover {
+    background-color: #fff;
+    color: #e2ba87;
+    padding: 24px 10px; }
 
 .checkmenu {
   font-size: 30px;
   color: #fff;
   line-height: 80px;
   margin-right: 0px;
-  display: none;
-}
+  display: none; }
 
 #check {
-  display: none;
-}
+  display: none; }
 
 .logo img {
   height: 150px;
   width: 150px;
-  -webkit-transition: all 300ms;
-  transition: all 300ms;
-}
-
-.logo img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
+  transition: all 300ms; }
+  .logo img:hover {
+    transform: scale(1.1); }
 
 .productos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .btn {
   background-color: #c79f6c;
-  border: solid 1px #79541e;
-}
-
-.btn:hover {
-  background-color: #c7a06cad;
-  border: solid 1px #79551eda;
-}
+  border: solid 1px #79541e; }
+  .btn:hover {
+    background-color: #c7a06cad;
+    border: solid 1px #79551eda; }
 
 .faq {
   text-align: center;
   margin: 20px;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 50px;
-}
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px; }
 
 .ubicacion {
   width: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px;
-}
+  flex-direction: column;
+  align-items: center;
+  margin: 20px; }
 
 .mapa {
   height: 500px;
-  width: 700px;
-}
+  width: 700px; }
 
 .titulo_contacto {
   margin: 50px;
-  text-align: center;
-}
+  text-align: center; }
 
 .formulario {
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
   border-radius: 4px;
-  width: 600px;
-}
+  width: 600px; }
 
 footer {
   background-color: #c79f6c;
   width: 100%;
   height: auto;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  padding: 8px;
-}
+  padding: 8px; }
 
 @media (max-width: 418px) {
   .checkmenu {
-    display: block;
-  }
+    display: block; }
   .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .menu ul {
-    background-color: #c79f6c;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 150px;
-    left: -100%;
-    text-align: center;
-    z-index: 3;
-  }
-  .menu ul li {
-    display: block;
-    margin: 30px 0;
-    line-height: 20px;
-  }
-  .menu ul li a {
-    font-size: 20px;
-  }
+    justify-content: center; }
+    .menu ul {
+      background-color: #c79f6c;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 150px;
+      left: -100%;
+      text-align: center;
+      z-index: 3; }
+    .menu ul li {
+      display: block;
+      margin: 30px 0;
+      line-height: 20px; }
+    .menu ul li a {
+      font-size: 20px; }
   #check:checked ~ ul {
-    left: 0;
-  }
+    left: 0; }
   .contenedor img {
-    display: none;
-  }
+    display: none; }
   .mapa {
-    width: 300px;
-  }
-}
-/*# sourceMappingURL=style.css.map */
+    width: 300px; } }
