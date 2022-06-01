@@ -1,6 +1,7 @@
 @import "variables";
 @import "menu";
 @import "contacto";
+@import "footer";
 
 
 *{
@@ -32,8 +33,6 @@ body{
             border-radius: 20px;
             padding: 0px 5px;
         }
-
-
 }
 
 .productos{
@@ -64,16 +63,11 @@ body{
     margin: 50px;
 }
 
-footer{
-    @include propiedadesp ($colorPrimario, 100%, auto);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: map-get($texto, align );
-    padding: 8px;
+.listas{
+    padding-left: 0;
+    list-style: none;
 }
+
 
 @media (max-width: 418px){
     .checkmenu{

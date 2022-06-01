@@ -14,9 +14,8 @@
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .menu ul li {
@@ -97,6 +96,62 @@
   width: 600px;
 }
 
+footer {
+  background-color: #c79f6c;
+  width: 100%;
+  height: auto;
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 8px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navfooter {
+  padding: 0;
+  margin: 0;
+}
+
+.navfooter li {
+  display: inline-block;
+}
+
+.navfooter li a {
+  padding: 10px;
+  color: white;
+}
+
+.navfooter li a:hover {
+  color: #8d6735;
+}
+
+.social h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #f8ecdc;
+}
+
+.social ul li {
+  display: inline-block;
+}
+
+.social ul li a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.social ul li.in a {
+  color: #df588a;
+}
+
+.social ul li.fb a {
+  color: #3742d0;
+}
+
+.social ul li.pin a {
+  color: #dd4d5a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -169,26 +224,9 @@ body {
   margin: 50px;
 }
 
-footer {
-  background-color: #c79f6c;
-  width: 100%;
-  height: auto;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  padding: 8px;
+.listas {
+  padding-left: 0;
+  list-style: none;
 }
 
 @media (max-width: 418px) {

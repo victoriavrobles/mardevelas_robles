@@ -4,9 +4,8 @@
     justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente2;
     font-weight: bold;
-    text-transform: uppercase;
             ul li{
                 display: inline;
                 margin: map-get($texto, margin);
