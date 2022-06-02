@@ -9,11 +9,6 @@
     padding: 0;
 }
 
-main{
-        margin: 0;
-        padding: 0;
-    }
-
 a{
     text-decoration: none;
     color:#e2ba87;
@@ -32,7 +27,7 @@ body{
 
 .newsletter{
     height: 250px;
-    background-image: url(../assets/img/carousel/02.jpg);
+    background-image: url(../assets/img/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -40,6 +35,7 @@ body{
     align-items: center;
     margin: 0;
     max-width: 100%;
+    padding: 3px;
     box-shadow: 2px 2px 19px 3px rgba(0,0,0,0.58);
 }
 
@@ -66,6 +62,14 @@ body{
     justify-content: center;
 }
 
+.titulo{
+    background-color: $colorPrimario;
+    font-family: $fuente2;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
 .btn{
     background-color: $colorPrimario;
     border: solid 1px #79541e;
@@ -77,8 +81,7 @@ body{
 
 .faq{
     text-align: map-get($texto, align);
-    margin: map-get($texto, margin );
-    padding: 20px;
+    padding: 10px;
 }
 
 .contenedor{
