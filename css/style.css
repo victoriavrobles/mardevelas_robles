@@ -218,9 +218,9 @@ ahover {
 
 p {
   font-family: "Poppins", sans-serif;
-  margin-top: 0;
   margin-bottom: 1px;
   line-height: 20px;
+  padding: 5px;
 }
 
 h5 {
@@ -288,7 +288,6 @@ body {
 .info {
   background-color: #f8ecdc;
   width: 100%;
-  margin: 15px;
 }
 
 .info .box {
@@ -305,7 +304,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 8px;
+  padding: 0;
 }
 
 .info p {
@@ -314,6 +313,7 @@ body {
 
 .info i {
   margin: 0px 15px;
+  padding: 5px;
 }
 
 .lv {

@@ -20,9 +20,9 @@ a{
 
 p{
     font-family: $fuente2;
-    margin-top: 0;
     margin-bottom: 1px;
     line-height: 20px;
+    padding: 5px;
 }
 
 h5{
@@ -78,19 +78,19 @@ body{
 .info{
     background-color: $colorFondo;
     width: 100%;
-    margin: 15px;
         .box{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding: 8px;
+        padding: 0;
         }
         p{
             margin: 0px 15px;
         }
         i{
             margin: 0px 15px;
+            padding: 5px;
         }
 }
 
