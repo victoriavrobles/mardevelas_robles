@@ -9,11 +9,15 @@ $fuente3: 'Source Serif Pro', serif;
 $texto:(
     align: center,
     color: #fff,
-    margin: 20px,
+    padding: 20px,
 );
 
 @mixin propiedadesp ($bg-color,$ancho, $alto) {
     background-color: $bg-color;
     width: $ancho;
     height: $alto;
+}
+
+.boxshadow{
+    box-shadow: 2px 2px 19px 3px rgba(0,0,0,0.58);
 }

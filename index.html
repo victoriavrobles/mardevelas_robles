@@ -48,6 +48,9 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
         <img src="./assets/img/carousel/01.jpg" class="d-block w-100" alt="Mar de Velas">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>¡Proba nuestros productos!</h5>
+        </div>
     </div>
     <div class="carousel-item">
         <img src="./assets/img/carousel/02.jpg" class="d-block w-100" alt="Velas de soja">
@@ -69,18 +72,20 @@
  
 <main>
 
-<div class="col-md-12 newsletter">
-    <div class="newsletter_texto">
+<div class="col-md-12 newsletter boxshadow">
+<div class="newsbox">
+    <div>
         <h3>¡Sigamos Conectados!</h3>
-        <p>Suscribite a nuestro newsletter para recibir nuestra promociones y noticias.</p>
+        <p>Suscribite a nuestro newsletter para recibir <br> nuestras promociones y noticias.</p>
     </div>
-    <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
-    <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
+    <form class="form-inline">
+    <input type="email" class="form-control" id="inlineInputEmail1" aria-describedby="emailHelp" placeholder="email@mardevelas.com">
+    <div class="col text-center">
+    <button type="submit" class="btn btn-primary my-1">Suscribirme</button>
+</div>
 </form>
 </div>
 </div>
-</div>
-
 
 <div class="col-md-12">
     <h2 class="titulo mt-3">Productos Destacados</h2>
@@ -88,9 +93,9 @@
         <div class="card mx-2" style="width: 250px;">
             <img src="./assets/img/vela1.jpg" class="card-img-top" alt="Vela aromatica">
             <div class="card-body">
-            <h5 class="card-title d-flex justify-content-center">Vela 1</h5>
+            <h4 class="card-title d-flex justify-content-center">Vela 1</h4>
             <p class="card-text">Aromas: Vainilla, Café, Limón y Chocolate.</p>
-            <p class="pt-1">Precio: $300</p>
+            <p class="pb-3">Precio: $300</p>
             <a href="#" class="btn d-flex justify-content-center">Comprar</a>
             </div>
         </div>
@@ -98,9 +103,9 @@
     <div class="card mx-2" style="width: 250px;">
         <img src="./assets/img/vela2.jpg" class="card-img-top" alt="Vela aromatica">
         <div class="card-body">
-        <h5 class="card-title d-flex justify-content-center">Vela 2</h5>
+        <h4 class="card-title d-flex justify-content-center">Vela 2</h4>
         <p class="card-text">Aromas: Vainilla y Chocolate.</p>
-        <p class="pb-4">Precio: $600</p>
+        <p class="pb-3">Precio: $600</p>
         <a href="#" class="btn d-flex justify-content-center">Comprar</a>
         </div>
     </div>
@@ -108,12 +113,29 @@
     <div class="card mx-2" style="width: 250px;">
         <img src="./assets/img/vela3.jpg" class="card-img-top" alt="Vela aromatica">
         <div class="card-body">
-        <h5 class="card-title d-flex justify-content-center">Vela 3</h5>
+        <h4 class="card-title d-flex justify-content-center">Vela 3</h4>
         <p class="card-text">Aromas: Vainilla, Café, Limón y Chocolate.</p>
-        <p>Precio: $300</p>
+        <p class="pb-3">Precio: $300</p>
         <a href="#" class="btn d-flex justify-content-center">Comprar</a>
         </div>
     </div>
+</div>
+
+<hr>
+
+<div class="info my-4">
+    <div class="info box">
+        <i class="fas fa-shipping-fast"></i>
+        <p><strong>ENVIAMOS TU COMPRA. </strong><br>Gratis desde $2.000. <br>Envíos a todo el país</p>
+
+        <div class="lv"></div>
+        <i class="fas fa-dollar-sign"></i>
+        <p><strong>PAGÁ COMO QUIERAS</strong> <br>Hasta 3 cuotas sin interés con <br>tarjetas de crédito, 10% off por<br>transferencia o efectivo.</p>
+
+        <div class="lv"></div>
+        <i class="fa-solid fa-arrow-rotate-right"></i>
+        <p><strong>CAMBIOS Y DEVOLUCIONES</strong> <br> Hace click <a href="./pages/devoluciones.html">acá</a> para leer nuestra <br>política de devoluciones</p>
+</p>
 </div>
 </main>
 
@@ -127,18 +149,18 @@
             </div>
             <ul class="listas navfooter mb-4">
               <li><a href="#">Inicio</a></li>
-              <li><a href="#">Productos</a></li>
-              <li><a href="#">Devoluciones</a></li>
-              <li><a href="#">Contacto</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="./pages/productos.html">Productos</a></li>
+              <li><a href="./pages/devoluciones.html">Devoluciones</a></li>
+              <li><a href="./pages/contacto.html">Contacto</a></li>
+              <li><a href="./pages/faq.html">FAQ</a></li>
             </ul>
 
             <div class="social mb-4">
               <h3>¡Seguinos en nuestras redes sociales!</h3>
               <ul class="listas">
-                <li class="in"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="fb"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                <li class="pin"><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                <li class="in"><a href="https://www.instagram.com/mar_develas/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="fb"><a href="https://www.facebook.com/Mar-de-Velas-109907657847075"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="pin"><a href="https://ar.pinterest.com/lumierevelashop/velas-de-soja/"><i class="fa-brands fa-pinterest"></i></a></li>
               </ul>
             </div>
 
